@@ -1,0 +1,27 @@
+{
+  "name": "weibo-picture-store",
+  "version": "5.4.3",
+  "private": true,
+  "description": "Chrome Extension",
+  "scripts": {
+    "bundle": "rimraf dist && gulp bundle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Semibold/Weibo-Picture-Store.git"
+  },
+  "author": "Aqours",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Semibold/Weibo-Picture-Store/issues"
+  },
+  "homepage": "https://github.com/Semibold/Weibo-Picture-Store#readme",
+  "devDependencies": {
+    "chrome-webstore-upload-cli": "1.1.1",
+    "gulp": "3.9.1",
+    "gulp-json-modify": "1.0.2",
+    "gulp-zip": "4.1.0",
+    "merge-stream": "1.0.1",
+    "rimraf": "2.6.2"
+  }
+}
